@@ -1,10 +1,7 @@
 package com.proj.documents;
 
 import com.proj.dto.car.CarDto;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -12,6 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Getter @Setter
 @Document("cars")
+@Data
 
 public class CarDocument {
 @Id

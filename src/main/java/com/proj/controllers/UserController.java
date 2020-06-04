@@ -5,7 +5,6 @@ import com.proj.services.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.lang.reflect.InvocationTargetException;
 
 @RestController
 @CrossOrigin
@@ -16,7 +15,7 @@ public class UserController {
     CarService carService;
 
     @PostMapping("addCar")
-    public boolean addCar(@RequestBody CarDto carDto) throws NoSuchFieldException, NoSuchMethodException, IllegalAccessException, InvocationTargetException {
+    public boolean addCar(@RequestBody CarDto carDto)  {
        return carService.addCar(carDto);
     }
 }

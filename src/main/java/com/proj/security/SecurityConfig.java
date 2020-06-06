@@ -26,7 +26,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         http.cors();
 
-        http.authorizeRequests().antMatchers(API.REGISTRATION+API.ADD_ACCOUNT,
+        http.authorizeRequests().antMatchers(API.REGISTRATION+API.ADD_ACCOUNT,"/",
                 API.REGISTRATION+API.LOGIN).permitAll();
 
         http.authorizeRequests().antMatchers(API.ACTIONS+API.ADD_CAR).hasRole("USER");

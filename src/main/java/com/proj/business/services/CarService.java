@@ -1,10 +1,10 @@
-package com.proj.services;
+package com.proj.business.services;
 
-import com.proj.documents.Account;
-import com.proj.documents.CarDocument;
-import com.proj.dto.car.CarDto;
-import com.proj.repositories.AccountRepository;
-import com.proj.repositories.CarsRepository;
+import com.proj.security.documents.Account;
+import com.proj.business.documents.CarDocument;
+import com.proj.business.dto.car.CarDto;
+import com.proj.security.repositories.AccountRepository;
+import com.proj.business.repositories.CarsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.context.SecurityContextHolder;

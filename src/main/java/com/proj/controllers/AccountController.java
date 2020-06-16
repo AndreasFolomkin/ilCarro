@@ -1,21 +1,12 @@
 package com.proj.controllers;
 
-import com.proj.dto.registration.AccountDto;
-import com.proj.dto.registration.LoginDto;
-import com.proj.security.jwt.JWTTokenUtils;
-import com.proj.services.AccountService;
-import com.proj.services.IAccountService;
+
+import com.proj.security.dto.AccountDto;
+import com.proj.security.dto.LoginDto;
+import com.proj.security.services.IAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
 @RestController
 @RequestMapping("/registration")

@@ -1,7 +1,7 @@
 package com.proj.controllers;
 
-import com.proj.dto.car.CarDto;
-import com.proj.services.CarService;
+import com.proj.business.dto.car.CarDto;
+import com.proj.business.services.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

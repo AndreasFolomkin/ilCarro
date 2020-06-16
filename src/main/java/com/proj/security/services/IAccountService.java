@@ -1,6 +1,7 @@
-package com.proj.services;
+package com.proj.security.services;
 
-import com.proj.dto.registration.LoginDto;
+
+import com.proj.security.dto.LoginDto;
 import org.springframework.http.ResponseEntity;
 
 public interface IAccountService {

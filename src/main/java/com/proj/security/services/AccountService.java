@@ -1,8 +1,9 @@
-package com.proj.services;
+package com.proj.security.services;
 
-import com.proj.documents.Account;
-import com.proj.dto.registration.LoginDto;
-import com.proj.repositories.AccountRepository;
+import com.proj.security.documents.Account;
+
+import com.proj.security.dto.LoginDto;
+import com.proj.security.repositories.AccountRepository;
 import com.proj.security.jwt.JWTTokenUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

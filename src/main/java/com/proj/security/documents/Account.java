@@ -1,4 +1,4 @@
-package com.proj.documents;
+package com.proj.security.documents;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

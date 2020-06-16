@@ -1,6 +1,5 @@
-package com.proj.dto.car;
+package com.proj.business.dto.car;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

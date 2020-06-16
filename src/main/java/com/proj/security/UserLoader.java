@@ -1,7 +1,7 @@
 package com.proj.security;
 
-import com.proj.documents.Account;
-import com.proj.repositories.AccountRepository;
+import com.proj.security.documents.Account;
+import com.proj.security.repositories.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.security.core.authority.AuthorityUtils;

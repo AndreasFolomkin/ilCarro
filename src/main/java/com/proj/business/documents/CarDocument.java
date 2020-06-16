@@ -1,6 +1,6 @@
-package com.proj.documents;
+package com.proj.business.documents;
 
-import com.proj.dto.car.CarDto;
+import com.proj.business.dto.car.CarDto;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

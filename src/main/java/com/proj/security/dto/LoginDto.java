@@ -1,4 +1,4 @@
-package com.proj.dto.registration;
+package com.proj.security.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
